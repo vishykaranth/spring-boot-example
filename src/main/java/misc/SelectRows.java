@@ -1,4 +1,6 @@
-package hello;
+package misc;
+
+import product.DatabaseUtil;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

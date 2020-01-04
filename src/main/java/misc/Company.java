@@ -1,4 +1,4 @@
-package hello;
+package misc;
 
 public class Company {
     private final int id;

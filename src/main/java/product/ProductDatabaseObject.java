@@ -47,6 +47,7 @@ public class ProductDatabaseObject {
                     + "VALUES ('" + product.getId()
                     + "', '" + product.getName() + "');";
             statement.executeUpdate(sql);
+            connection.commit();
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
         }
